@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">practica</string>
+    <string name="title">Laboratorio N°1</string>
+    <string name="page">Mi Perfil</string>
+
+    <string name="save">Guardar</string>
+    <string name="save_profile">Guardar Perfil</string>
+    <string name="desc_profile">Complete la información de su perfil para continuar.</string>
+
+    <string name="name_hint">Ej. Juan Pérez</string>
+    <string name="email_hint">usuario@ejemplo.com</string>
+    <string name="gender_hint">Seleccione una opción</string>
+    <string name="date_hint">mm/dd/yyyy</string>
+
+    <string-array name="gender_options">
+        <item>Seleccione una opción</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

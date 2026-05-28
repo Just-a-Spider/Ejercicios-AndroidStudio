@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TA 2</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_age">Edad</string>
+    <string name="hint_email">Correo</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_send_email">Enviar Correo</string>
+    <string name="title_detail">Detalle de Usuario</string>
+    <string name="title_list">Lista de Usuarios</string>
+    <string name="logout_toast">Sesión cerrada</string>
+</resources>

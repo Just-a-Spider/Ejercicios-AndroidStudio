@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">practica</string>
+    <string name="title">Bienvenido</string>
+
+    <string name="saludar">Saludar</string>
+    <string name="segundaPantalla">Ir a Segunda Pantalla</string>
+    <string name="abrirNavegador">Abrir Navegador</string>
+
+    <string name="name_hint">Ingresa tu Nombre</string>
+</resources>

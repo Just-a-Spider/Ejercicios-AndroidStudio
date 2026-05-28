@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laboratorio 4</string>
+
+    <string name="menu_search">Buscar</string>
+    <string name="menu_messenger">Messenger</string>
+
+    <string name="toast_search">Buscar presionado</string>
+    <string name="toast_messenger">Messenger presionado</string>
+</resources>

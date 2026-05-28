@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laboratorio 2</string>
+
+    <string name="btnSecond">Ir a Segunda Activity</string>
+    <string name="btnThird">Ir a Tercer Activity</string>
+    <string name="btnImplicit">Configuración de WiFi</string>
+    <string name="btnBack">Vovler</string>
+
+</resources>
