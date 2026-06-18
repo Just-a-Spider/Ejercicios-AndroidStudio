@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_tareas"
+        android:title="Gestión de Tareas (Room)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_usuarios_api"
+        android:title="Usuarios API (Volley)"
+        app:showAsAction="never" />
+</menu>

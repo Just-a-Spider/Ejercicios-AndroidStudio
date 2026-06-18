@@ -1,0 +1,33 @@
+I0528 11:47:52.568137  111387 load.go:31] Reloading schema and connectors...
+I0528 11:47:52.665587  111387 control.go:100] [projects/emulator/locations/emulator/services/kuantum-educa-service e794] UpdateResources(): done
+Main schema: sources: schema/courses.gql [4096B] schema/evaluations.gql [2174B] schema/pers-eval.gql [8957B] schema/schema.gql [3780B] schema/vocational-test.gql [5329B] 
+Connector "personal-evaluation": sources: pers-eval/mutations.gql [5231B] pers-eval/queries.gql [8621B] 
+Connector "evaluations": sources: evaluations/mutations.gql [2936B] evaluations/queries.gql [1215B] 
+Connector "courses": sources: courses/mutations.gql [2609B] courses/queries.gql [3146B] 
+Connector "enp": sources: enp/mutations.gql [1740B] enp/queries.gql [2416B] 
+Connector "vocational-test": sources: vocational-test/mutations.gql [6457B] vocational-test/queries.gql [4945B] 
+I0528 11:47:52.778051  111387 codegen.go:101] [connector "enp" javascriptSdk] Generating sources into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/enp"
+I0528 11:47:52.797154  111387 codegen.go:101] [connector "vocational-test" javascriptSdk] Generating sources into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/vocational-test"
+I0528 11:47:52.823687  111387 codegen.go:101] [connector "personal-evaluation" javascriptSdk] Generating sources into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/pers-eval"
+I0528 11:47:52.849602  111387 codegen.go:101] [connector "evaluations" javascriptSdk] Generating sources into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/evaluations"
+I0528 11:47:52.863185  111387 codegen.go:101] [connector "courses" javascriptSdk] Generating sources into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/courses"
+I0528 11:47:52.881834  111387 collector.go:107] schema extensions wrote into "/home/andre/Desktop/Work/kuantum/frontend/dataconnect/.dataconnect/schema"
+Generated sources: main/query.gql [56653B] main/mutation.gql [145233B] main/implicit.gql [13310B] prelude.gql [84989B] main/input.gql [590076B] main/relation.gql [285710B] 
+I0528 11:47:52.883594  111387 collector.go:107] connector "enp" javascriptSdk wrote into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/enp"
+Generated sources: esm/package.json [17B] index.cjs.js [6466B] package.json [861B] angular/index.d.ts [4726B] angular/package.json [649B] angular/index.cjs.js [4433B] angular/esm/package.json [17B] angular/esm/index.esm.js [4172B] esm/index.esm.js [5804B] README.md [50197B] .guides/config.json [236B] .guides/usage.md [4147B] angular/README.md [51757B] .guides/setup.md [1631B] index.d.ts [15633B] 
+I0528 11:47:52.886267  111387 installsdk.go:55] Package @dataconnect/generated is already installed. Skipping installation
+I0528 11:47:52.888513  111387 collector.go:107] connector "vocational-test" javascriptSdk wrote into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/vocational-test"
+Generated sources: esm/package.json [17B] angular/esm/package.json [17B] angular/esm/index.esm.js [7362B] index.cjs.js [13778B] angular/index.cjs.js [7991B] angular/README.md [104458B] .guides/usage.md [4894B] index.d.ts [27079B] esm/index.esm.js [12132B] angular/index.d.ts [10160B] angular/package.json [677B] .guides/config.json [236B] package.json [889B] README.md [103211B] .guides/setup.md [1663B] 
+I0528 11:47:52.889105  111387 installsdk.go:55] Package @dataconnect/generated-vocational-test is already installed. Skipping installation
+I0528 11:47:52.891504  111387 collector.go:107] connector "personal-evaluation" javascriptSdk wrote into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/pers-eval"
+Generated sources: .guides/setup.md [1651B] angular/index.cjs.js [17840B] .guides/usage.md [5377B] angular/esm/index.esm.js [16597B] angular/README.md [182445B] esm/index.esm.js [24385B] esm/package.json [17B] angular/esm/package.json [17B] .guides/config.json [236B] index.d.ts [49643B] index.cjs.js [27657B] package.json [887B] README.md [196160B] angular/index.d.ts [20331B] angular/package.json [675B] 
+I0528 11:47:52.892121  111387 installsdk.go:55] Package @dataconnect/generated-pers-eval is already installed. Skipping installation
+I0528 11:47:52.893086  111387 collector.go:107] connector "evaluations" javascriptSdk wrote into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/evaluations"
+Generated sources: esm/index.esm.js [8081B] index.cjs.js [9055B] package.json [621B] README.md [71497B] .guides/usage.md [2276B] .guides/setup.md [586B] index.d.ts [18640B] esm/package.json [17B] .guides/config.json [236B] 
+I0528 11:47:52.893102  111387 installsdk.go:138] generate.javascriptSdk.packageJsonDir is not specified, skipping automatic installation of package
+I0528 11:47:52.894876  111387 collector.go:107] connector "courses" javascriptSdk wrote into "/home/andre/Desktop/Work/kuantum/frontend/src/app/shared/dataconnect-sdk/courses"
+Generated sources: esm/package.json [17B] README.md [109926B] angular/esm/package.json [17B] angular/README.md [106218B] esm/index.esm.js [13204B] angular/index.cjs.js [9382B] .guides/config.json [236B] angular/package.json [661B] .guides/usage.md [5022B] .guides/setup.md [1647B] index.d.ts [28624B] index.cjs.js [15000B] package.json [873B] angular/index.d.ts [11387B] angular/esm/index.esm.js [8699B] 
+I0528 11:47:52.896847  111387 installsdk.go:55] Package @dataconnect/generated-courses is already installed. Skipping installation
+I0528 11:47:52.896876  111387 load.go:109] Finished reloading
+I0528 11:47:52.897233  111387 dev.go:104] Listening on address (HTTP + gRPC): 127.0.0.1:50001
+I0528 11:47:53.036523  111387 engine.go:209] [projects/emulator/locations/emulator/services/kuantum-educa-service e794] ExecuteGraphqlRead query IntrospectionQuery: succeeded. 
